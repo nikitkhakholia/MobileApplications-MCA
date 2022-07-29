@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Program2">
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <ImageButton-->
+<!--            android:paddingHorizontal="20dp"-->
+<!--            android:paddingTop="5dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#00000000"-->
+<!--            android:src="@drawable/ic_baseline_arrow_back_ios_24"/>-->
+<!--    </LinearLayout>-->
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_gravity="top|center"
+            android:src="@drawable/logo1" />
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:padding="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:fontFamily="@font/font1"
+                android:text="BIKAJI KI KAHANI" />
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:justificationMode="inter_word"
+                        android:fontFamily="@font/font1"
+                        android:text="In the late 80s, Shri Shivratan Agarwal decided to walk his path and create a new identity for himself, this lead to the birth of the brand Bikaji. At the time when the technology to produce Bhujia on a large scale was unthought of, Shri Agarwal successfully laid the foundation of his dream venture. Not only, he ventured across the world to find and co-invent the right technology for producing bhujia; but he also managed to find an easy to remember name for the brand, that would easily connect with the consumers. The name Bikaji is derived from Bika Rao- the founder of Bikaner and Ji, used as a mark of respect in India. Shri Agarwal’s vision was to give the world, a taste of Aslee Parampara. He desired to reach every consumer with authentic Indian taste, that reflects India’s culture and values. Over the years, Bikaji has managed to win hearts across the globe, with its power of ethnic-snacking. Today, Bikaji stands for authentic Indian taste, with diverse products and innovative packaging, adding to its commitment of taking Aslee Indian taste to the world." />
+
+
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:fontFamily="@font/font1"
+                android:text="Products" />
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:scrollbars="horizontal"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@mipmap/ic_product_foreground" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@mipmap/ic_product1_foreground" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@mipmap/ic_product2_foreground" />
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@mipmap/ic_product3_foreground" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+</LinearLayout>
