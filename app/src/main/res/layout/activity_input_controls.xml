@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/inputcontrols"
+    tools:context=".InputControls">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/ic_baseline_home_24"
+        android:id="@+id/fab_home"
+        android:layout_margin="10dp"/>
+    <LinearLayout
+        android:paddingTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feed us back"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/font1"/>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/feedback"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your feedback is valuable to us. Please fill this form wisely."
+                    android:fontFamily="@font/font1"/>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Please Rate us."
+                    android:fontFamily="@font/font1"/>
+                <RatingBar
+                    android:id="@+id/rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Would you like to answer some quick questions?"
+                    android:fontFamily="@font/font1"/>
+
+                <ToggleButton
+                    android:id="@+id/tog_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:textOff="No"
+                    android:textOn="Yes" />
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/form"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Where do you buy our products?"
+                        android:fontFamily="@font/font1"/>
+                    <CheckBox
+                        android:id="@+id/chk_os"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Online Store"/>
+                    <CheckBox
+                        android:id="@+id/chk_sm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Super Markets"/>
+                    <CheckBox
+                        android:id="@+id/chk_dm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Departmental Stores"/>
+                    <CheckBox
+                        android:id="@+id/chk_rs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Retail Stores"/>
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="How long you have been using our products?"
+                        android:fontFamily="@font/font1"/>
+
+                    <RadioGroup
+                        android:id="@+id/time_rg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="1 month" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="6 months" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="1 year" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="more than 1 year" />
+                    </RadioGroup>
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Please select a product below?"
+                        android:fontFamily="@font/font1"/>
+                    <Spinner
+                        android:layout_marginRight="40dp"
+                        android:id="@+id/product_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bikaji would like to save this information."
+                        android:fontFamily="@font/font1"/>
+                    <Switch
+                        android:id="@+id/confirm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="SUBMIT"
+                        android:id="@+id/submit"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
