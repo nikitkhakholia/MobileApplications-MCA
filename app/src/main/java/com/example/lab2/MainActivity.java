@@ -29,7 +29,12 @@ public class MainActivity extends AppCompatActivity {
         Button btn3 = findViewById(R.id.btn3);
         Button btn4 = findViewById(R.id.btn4);
         Button btn5 = findViewById(R.id.btn5);
+        Button btn6 = findViewById(R.id.btn6);
 
+        btn6.setOnClickListener(v->{
+            Intent intent =  new Intent(this, Menus.class);
+            startActivity(intent);
+        });
         btn5.setOnClickListener(v->{
             Intent i = new Intent(this, InputControls.class);
             startActivity(i);

@@ -14,11 +14,13 @@
         <entry key="app/src/main/res/layout/activity_intents_lab1.xml" value="0.10625" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_menus.xml" value="0.146875" />
         <entry key="app/src/main/res/layout/activity_p4.xml" value="0.2625" />
         <entry key="app/src/main/res/layout/activity_program2.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.16354166666666667" />
         <entry key="app/src/main/res/layout/custom_spinner.xml" value="0.26145833333333335" />
         <entry key="app/src/main/res/layout/spinner_view.xml" value="0.26145833333333335" />
+        <entry key="app/src/main/res/menu/nav_drawer.xml" value="0.26145833333333335" />
       </map>
     </option>
   </component>

@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Lab2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.Lab2" parent="Theme.MaterialComponents.DayNight">
 
         <item name="fontFamily">@font/font1</item>
         <!-- Primary brand color. -->
