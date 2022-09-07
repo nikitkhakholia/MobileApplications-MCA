@@ -30,7 +30,12 @@ public class MainActivity extends AppCompatActivity {
         Button btn4 = findViewById(R.id.btn4);
         Button btn5 = findViewById(R.id.btn5);
         Button btn6 = findViewById(R.id.btn6);
+        Button btn7 = findViewById(R.id.btn7);
 
+        btn7.setOnClickListener(v->{
+            Intent intent =  new Intent(this, FragmentActivity.class);
+            startActivity(intent);
+        });
         btn6.setOnClickListener(v->{
             Intent intent =  new Intent(this, Menus.class);
             startActivity(intent);

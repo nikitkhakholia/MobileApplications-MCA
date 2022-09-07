@@ -6,8 +6,10 @@
         <entry key="../../Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_dropdown_item.xml" value="0.2625" />
         <entry key="app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.125" />
         <entry key="app/src/main/res/drawable/ic_cu_background.xml" value="0.12" />
+        <entry key="app/src/main/res/drawable/ic_snacks_background.xml" value="0.1345" />
         <entry key="app/src/main/res/font/font1.xml" value="0.2833333333333333" />
         <entry key="app/src/main/res/layout/activity_brand_webpage.xml" value="0.2078125" />
+        <entry key="app/src/main/res/layout/activity_fragment.xml" value="0.2625" />
         <entry key="app/src/main/res/layout/activity_implicit_intents.xml" value="0.2625" />
         <entry key="app/src/main/res/layout/activity_input_controls.xml" value="0.2625" />
         <entry key="app/src/main/res/layout/activity_intents_lab.xml" value="0.18854166666666666" />
@@ -19,6 +21,8 @@
         <entry key="app/src/main/res/layout/activity_program2.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.16354166666666667" />
         <entry key="app/src/main/res/layout/custom_spinner.xml" value="0.26145833333333335" />
+        <entry key="app/src/main/res/layout/fragment_1.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_2.xml" value="0.2625" />
         <entry key="app/src/main/res/layout/spinner_view.xml" value="0.26145833333333335" />
         <entry key="app/src/main/res/menu/nav_drawer.xml" value="0.26145833333333335" />
       </map>
