@@ -31,7 +31,12 @@ public class MainActivity extends AppCompatActivity {
         Button btn5 = findViewById(R.id.btn5);
         Button btn6 = findViewById(R.id.btn6);
         Button btn7 = findViewById(R.id.btn7);
+        Button btn8 = findViewById(R.id.btn8);
 
+        btn8.setOnClickListener(v->{
+            Intent intent =  new Intent(this, RecyclerView.class);
+            startActivity(intent);
+        });
         btn7.setOnClickListener(v->{
             Intent intent =  new Intent(this, FragmentActivity.class);
             startActivity(intent);
