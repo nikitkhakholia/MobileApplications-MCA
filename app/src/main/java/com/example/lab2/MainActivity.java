@@ -32,7 +32,17 @@ public class MainActivity extends AppCompatActivity {
         Button btn6 = findViewById(R.id.btn6);
         Button btn7 = findViewById(R.id.btn7);
         Button btn8 = findViewById(R.id.btn8);
+        Button btn9 = findViewById(R.id.btn9);
+        Button btn10 = findViewById(R.id.btn10);
 
+        btn10.setOnClickListener(v->{
+            Intent intent =  new Intent(this, SharedPreferences.class);
+            startActivity(intent);
+        });
+        btn9.setOnClickListener(v->{
+            Intent intent =  new Intent(this, Notification.class);
+            startActivity(intent);
+        });
         btn8.setOnClickListener(v->{
             Intent intent =  new Intent(this, RecyclerView.class);
             startActivity(intent);
